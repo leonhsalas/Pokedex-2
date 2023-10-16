@@ -7,13 +7,13 @@
 }
 
 body {
-  background-color: #1f2029;
+  background-color: #6dafd7;
   min-height: 100%;
   background-size: cover;
 }
 
 .title {
-  color: #F0DB4F;
+  color: #d76717;
   width: 100%;
   text-align: center;
 }
@@ -78,7 +78,7 @@ body {
   width: calc(100% - 8px);
   border-radius: 2px;
   height: 22px;
-  background-color: #e74c3c;
+  background-color: #13f235;
   position: absolute;
   top: 4px;
   left: 4px;
@@ -97,12 +97,13 @@ body {
 
 .radio-gens:checked + label:before,
 .radio-gens:not(:checked) + label:before {
-  border: 3px solid #e74c3c;
+  border: 3px solid greenyellow;
 }
 
 .radio-gens:checked + label::after,
 .radio-gens:not(:checked) + label::after {
-  background-color: #e74c3c;
+  background-color: #20ebc2;
+  opacity: 0.5;
 }
 
 .container {
@@ -123,14 +124,14 @@ body {
   list-style: none;
   width: 200px;
   height: 200px;
-  color: #37393B;
+  color: yellow;
 }
 .container li:hover {
-  border: 6px solid #F67C55;
+  border: 6px solid #16cf32;
   border-radius: 15px;
-  background: linear-gradient(45deg, #F67C55, #F67C55);
-  background: linear-gradient(45deg, #F23B00, #FCD3C6);
-  color: white;
+  background: linear-gradient(45deg, #13f235, #01fe26);
+  background: linear-gradient(45deg, #09d428, #2ae145);
+  color: rgb(255, 89, 89);
 }
 .container li .pokeimage {
   width: 100px;
